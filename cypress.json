@@ -1,0 +1,11 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "env": {
+    "cypress-react-unit-test": {
+      "react": "./node_modules/react/umd/react.development.js",
+      "react-dom": "./node_modules/react-dom/umd/react-dom.development.js"
+    }
+  },
+  "theme": "dark",
+  "projectId": "ms8s77"
+}

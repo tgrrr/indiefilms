@@ -5,13 +5,25 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "typescript": "^3.5.2"
+  },
+  "devDependencies": {
+    "@cypress/webpack-preprocessor": "^4.1.0",
+    "@testing-library/cypress": "^4.0.4",
+    "@testing-library/react": "^8.0.4",
+    "cypress": "^3.3.2",
+    "cypress-dark": "^1.7.13",
+    "cypress-eslint-preprocessor": "^1.2.2",
+    "cypress-react-unit-test": "^2.4.3"
   },
   "scripts": {
+    "cypress:run": "./node_modules/.bin/cypress run",
+    "cypress:open": "./node_modules/.bin/cypress open",
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "watch": "react-scripts start",
+    "test": "npm run cypress:run",
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": "react-app"
