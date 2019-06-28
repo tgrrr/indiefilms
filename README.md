@@ -10,23 +10,25 @@ cd indiefilms
 yarn
 ```
 
+## Tests
+
+- `yarn run test` or `yarn run test:run` - run Cypress in CLI
+- `yarn run test:open` - open Cypress browser for visual tests
+
+[See example recipes](https://github.com/cypress-io/cypress-example-recipes)
+
+- `yarn run test:bdd` - behaviour driven development (BDD) with [Cucumber](https://cucumber.io)
+
+**NOTE:** Running `test:bdd` only loads tests where the Cucumber definition includes the tags `@focus` to let you focus on a single integration/unit test.
+
+TODO: expand definition
+
 ## Development
 
 `yarn start` or `yarn watch`
 
 Runs the app in the development mode at
 [http://localhost:3000](http://localhost:3000)
-
-## Tests
-
-- `yarn test` - tests with [Cypress](http://Cypress.io)
-- `yarn run cypress:open` - Opens the interactive cypress tester
-
-[See example recipes](https://github.com/cypress-io/cypress-example-recipes)
-
-### `yarn run cypress:run`
-
-Run cypress tests in terminal
 
 ## Deploy TODO:
 

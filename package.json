@@ -13,16 +13,18 @@
     "@testing-library/cypress": "^4.0.4",
     "@testing-library/react": "^8.0.4",
     "cypress": "^3.3.2",
+    "cypress-cucumber-preprocessor": "^1.12.0",
     "cypress-dark": "^1.7.13",
     "cypress-eslint-preprocessor": "^1.2.2",
     "cypress-react-unit-test": "^2.4.3"
   },
   "scripts": {
-    "cypress:run": "./node_modules/.bin/cypress run",
-    "cypress:open": "./node_modules/.bin/cypress open",
     "start": "react-scripts start",
     "watch": "react-scripts start",
-    "test": "npm run cypress:run",
+    "test:bdd": "./node_modules/.bin/cypress-tags run -e TAGS='@focus'",
+    "test:run": "./node_modules/.bin/cypress run",
+    "test": "./node_modules/.bin/cypress run",
+    "test:open": "./node_modules/.bin/cypress open",
     "build": "react-scripts build"
   },
   "eslintConfig": {
