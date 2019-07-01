@@ -58,6 +58,10 @@ Runs the app in the development mode at
 - `yarn run build` for production
 - [Deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### Reference
+## Reference
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### API
+
+https://www.themoviedb.org/documentation/api/discover
