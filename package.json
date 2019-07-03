@@ -16,6 +16,7 @@
     "cypress-eslint-preprocessor": "^1.2.2",
     "cypress-react-unit-test": "^2.4.1",
     "cypress-testing-library": "^2.4.0",
+    "eslint-plugin-react-hooks": "^1.6.1",
     "react-testing-library": "^7.0.0"
   },
   "scripts": {
