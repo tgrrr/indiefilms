@@ -1,12 +1,6 @@
 // / <reference types="cypress" />
 import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps';
-
-const isNumeric = number => (
-  !Number.isNaN(parseFloat(number)) && Number.isFinite(number)
-);
-
-const isTitleCase = word => word[0] === word[0].toUpperCase()[0]
-    && word.substr(1) === word.substr(1).toLowerCase();
+import { isNumeric, isTitleCase } from '../../../../src/utils';
 
 // Scenario: Search TV details
 Given(/I get search Results$/, () => {
@@ -29,9 +23,11 @@ Then(/^I get a Year$/, () => {
   cy.get('[data-testid=SearchResults__item--year]')
     .should($el => expect($el).to.have.length(20))
     .each(($el) => {
-      $el && isNumeric($el.text())                // 'If a year is provided'
+      if ($el.text()) {
+        (isNumeric($el.text()))                   // 'If a year is provided'
           ? expect($el.text()).to.have.length(4)  // We should get a 4 digit year
           : expect($el.text()).to.have.length(0)  // if no year exists
+      }
     });
 });
 
