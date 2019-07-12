@@ -17,10 +17,16 @@
     "cypress-eslint-preprocessor": "^1.2.2",
     "cypress-react-unit-test": "^2.4.1",
     "cypress-testing-library": "^2.4.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-chai-friendly": "^0.4.1",
+    "eslint-plugin-cucumber": "^1.2.0",
+    "eslint-plugin-cypress": "^2.2.1",
     "eslint-plugin-react-hooks": "^1.6.1",
+    "react-hooks-testing-library": "^0.6.0",
     "react-testing-library": "^7.0.0"
   },
   "scripts": {
+    "eslint": "eslint \"**/*.js\" --ignore-pattern node_modules/",
     "start": "react-scripts start",
     "watch": "react-scripts start",
     "test:bdd": "./node_modules/.bin/cypress-tags run -e TAGS='@focus'",
