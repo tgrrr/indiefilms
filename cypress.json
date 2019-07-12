@@ -6,6 +6,7 @@
       "react-dom": "./node_modules/react-dom/umd/react-dom.development.js"
     }
   },
+  "ignoreTestFiles": "*.js",
   "theme": "dark",
   "projectId": "ms8s77"
 }
