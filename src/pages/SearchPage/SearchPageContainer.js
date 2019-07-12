@@ -1,14 +1,21 @@
-import React from 'react';
-import SearchPage from './SearchPage';
+import React, { useState } from 'react';
 import useFetchSearch from '../../services/api/useFetchSearch';
+import SearchPage from './SearchPage';
 
 const SearchPageContainer = () => {
-  // TODO: move to search component
-  const searchTerm = 'Stranger Things'
+  const [searchTerm, setSearchTerm] = useState('Rick');
 
   const movieDbResults = useFetchSearch(searchTerm);
 
-  return <SearchPage movieDbResults={movieDbResults} />;
-}
+  return (
+    movieDbResults
+      ? <SearchPage
+        movieDbResults={movieDbResults}
+        searchTerm={searchTerm}
+        setSearchTerm={setSearchTerm}
+      />
+      : <div>loading</div>
+  );
+};
 
 export default SearchPageContainer;

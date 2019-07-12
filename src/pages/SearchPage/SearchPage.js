@@ -1,18 +1,20 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import SearchResults from '../../components/Search/SearchResults/SearchResults';
 
 const SearchPage = ({movieDbResults}) => (
   <div 
     className='SearchPage' 
     data-testid='SearchPage'
   >
-    SearchPage
-    <pre>
-      {movieDbResults 
-        ? JSON.stringify(movieDbResults, null, 2)
-        : <div>loading</div>
-      }
-    </pre>
+    <SearchResults movieDbResults={movieDbResults} />
   </div>
 );
+
+SearchPage.propTypes = {
+  movieDbResults: PropTypes.array.isRequired,
+  searchTerm: PropTypes.string.isRequired,
+  setSearchTerm: PropTypes.func.isRequired,
+};
 
 export default SearchPage;

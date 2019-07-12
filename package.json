@@ -3,11 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.2.0",
     "axios": "^0.19.0",
     "iso-639-1": "^2.0.5",
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-loads": "^8.3.3",
+    "react-scripts": "3.0.1",
+    "styled-components": "^4.3.2",
+    "styled-system": "^5.0.12"
   },
   "devDependencies": {
     "@cypress/webpack-preprocessor": "^4.0.3",
