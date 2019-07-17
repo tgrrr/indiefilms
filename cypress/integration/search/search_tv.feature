@@ -15,12 +15,13 @@ Feature: TV Show Search
 # -----------------------------------------------------------------------------
 
   @focus @stubbed
-  Scenario: Search TV details Generate Stubbed API
+  Scenario: Search TV SearchResults Generate Stubbed API
+
     Given I get search Results
     Then It generates a fixture file stubbed API
 
   @stubbed
-  Scenario: Search TV details
+  Scenario: Search TV SearchResults
     Given I get search Results
     When I search for a TV show
     Then I get a Title
