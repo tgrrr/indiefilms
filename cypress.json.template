@@ -1,0 +1,18 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "env": {
+    "cypress-react-unit-test": {
+      "react": "./node_modules/react/umd/react.development.js",
+      "react-dom": "./node_modules/react-dom/umd/react-dom.development.js"
+    },
+    "REACT_APP_MOVIEDB_API_KEY": "<MOVIEDB_API_KEY>",
+    "REACT_APP_MOVIEDB_API_READ_ACCESS_TOKEN": "<MOVIEDB_API_READ_ACCESS_TOKEN>",
+    "REACT_APP_MOVIEDB_ROOT_URL": "https://api.themoviedb.org/3/search/",
+    "REACT_APP_LANGUAGE": "en-US",
+    "REACT_APP_STAGE": "development",
+    "REACT_APP_MEDIA_TYPE": "tv"
+  },
+  "ignoreTestFiles": "*.js",
+  "theme": "dark",
+  "projectId": ""
+}

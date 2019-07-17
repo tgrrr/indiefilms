@@ -1,0 +1,369 @@
+{
+  "page": 1,
+  "total_results": 46,
+  "total_pages": 3,
+  "results": [
+    {
+      "original_name": "Rick and Morty",
+      "id": 60625,
+      "name": "Rick and Morty",
+      "vote_count": 1276,
+      "vote_average": 8.5,
+      "poster_path": "/qJdfO3ahgAMf2rcmhoqngjBBZW1.jpg",
+      "first_air_date": "2013-12-02",
+      "popularity": 150.376,
+      "genre_ids": [
+        10765,
+        10759,
+        16,
+        35
+      ],
+      "original_language": "en",
+      "backdrop_path": "/mzzHr6g1yvZ05Mc7hNj3tUdy2bM.jpg",
+      "overview": "Rick is a mentally-unbalanced but scientifically-gifted old man who has recently reconnected with his family. He spends most of his time involving his young grandson Morty in dangerous, outlandish adventures throughout space and alternate universes. Compounded with Morty's already unstable family life, these events cause Morty much distress at home and school.",
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "original_name": "Hunter",
+      "id": 4571,
+      "name": "Hunter",
+      "vote_count": 23,
+      "vote_average": 7.35,
+      "poster_path": "/kmC8d3KQozh1SlIih0hdfXsGLe8.jpg",
+      "first_air_date": "1984-09-18",
+      "popularity": 21.266,
+      "genre_ids": [
+        10759,
+        18
+      ],
+      "original_language": "en",
+      "backdrop_path": "/xuhdxymyMBqECVoijfN2E3UOToI.jpg",
+      "overview": "Hunter is an American police drama television series created by Frank Lupo, and starring Fred Dryer as Sgt. Rick Hunter and Stepfanie Kramer as Sgt. Dee Dee McCall, which ran on NBC from 1984 to 1991. However, Kramer left after the sixth season to pursue other acting and musical opportunities. In the seventh season, Hunter partnered with two different women officers. The titular character, Sgt. Rick Hunter, was a wily, physically imposing, and often rule-breaking homicide detective with the Los Angeles Police Department. The show's main characters, Hunter and McCall, resolve many of their cases by shooting dead the perpetrators.\n\nThe show's executive producer during the first season was Stephen J. Cannell, whose company produced the series.",
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "original_name": "Rick Steves' Europe",
+      "id": 62970,
+      "name": "Rick Steves' Europe",
+      "vote_count": 3,
+      "vote_average": 8.33,
+      "poster_path": "/dF046Rru7JNtbw3BTQFsvQFzSq2.jpg",
+      "first_air_date": "2000-09-03",
+      "popularity": 10.639,
+      "genre_ids": [
+        99
+      ],
+      "original_language": "en",
+      "backdrop_path": null,
+      "overview": "Rick Steves, America's leading authority on European travel, returns to transport viewers to the continent's bustling cities, quaint villages and picturesque countryside.",
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "original_name": "American Restoration",
+      "id": 34015,
+      "name": "American Restoration",
+      "vote_count": 20,
+      "vote_average": 5.8,
+      "poster_path": "/wKxNvN9PYz0qQ95x8DhXsdmegru.jpg",
+      "first_air_date": "2010-10-25",
+      "popularity": 3.865,
+      "genre_ids": [
+        10764
+      ],
+      "original_language": "en",
+      "backdrop_path": "/med0M0lBTPRtmzQfC9yfdpTklrf.jpg",
+      "overview": "American Restoration is an American reality television series airing on the History channel. Produced by Leftfield Pictures, the series is recorded in Las Vegas, Nevada, where it chronicles the daily activities at Rick's Restorations, an antique restoration shop, with its owner Rick Dale, his staff, and teenage son, as they restore various vintage items to their original condition.",
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "original_name": "Rick Mercer Report",
+      "id": 3664,
+      "name": "Rick Mercer Report",
+      "vote_count": 5,
+      "vote_average": 7.2,
+      "poster_path": "/kJsPs1hoB9Ds58MuKqXHrHIbagz.jpg",
+      "first_air_date": "2004-01-12",
+      "popularity": 3.043,
+      "genre_ids": [
+        99,
+        10763,
+        35
+      ],
+      "original_language": "en",
+      "backdrop_path": "/uErwOGTS4CFgt1nAqfCe2rQaFod.jpg",
+      "overview": "A weekly helping of topical satire, funny takes on the week's top stories and Canada-wide adventures.",
+      "origin_country": [
+        "CA"
+      ]
+    },
+    {
+      "original_name": "Typical Rick",
+      "id": 81360,
+      "name": "Typical Rick",
+      "vote_count": 0,
+      "vote_average": 0,
+      "poster_path": "/ufYyP1cP3CXz7RoVpybXLI5m9p5.jpg",
+      "first_air_date": "2016-11-14",
+      "popularity": 1.477,
+      "genre_ids": [
+        35
+      ],
+      "original_language": "en",
+      "backdrop_path": "/xbPucj9QS0yE2rnhhorIbIFKuvQ.jpg",
+      "overview": "An \"Odd Couple\" type comedy following the exploits of Gary and Rick, childhood friends from the Midwest who move to Hollywood to chase their dreams well past their prime.",
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "original_name": "Bully & Rick",
+      "id": 29874,
+      "name": "Bully & Rick",
+      "vote_count": 1,
+      "vote_average": 8,
+      "poster_path": "/nstnHBIldUM6xzqTzdPLudh2p4p.jpg",
+      "first_air_date": "2004-09-13",
+      "popularity": 0.699,
+      "genre_ids": [
+        35
+      ],
+      "original_language": "de",
+      "backdrop_path": "/3oX4Zv9qIQk3SggnCkNBkm6lRfc.jpg",
+      "overview": "",
+      "origin_country": [
+        "DE"
+      ]
+    },
+    {
+      "original_name": "Rick Stein's India",
+      "id": 52127,
+      "name": "Rick Stein's India",
+      "vote_count": 0,
+      "vote_average": 0,
+      "poster_path": "/nox4bSpLlhARQ1VSdWegt3Q969M.jpg",
+      "first_air_date": "2013-06-17",
+      "popularity": 0.6,
+      "genre_ids": [
+        99
+      ],
+      "original_language": "en",
+      "backdrop_path": null,
+      "overview": "Rick Stein sets out on a journey around India to discover the different cuisines celebrated the world over.",
+      "origin_country": [
+        "GB"
+      ]
+    },
+    {
+      "original_name": "Rick and Bubba",
+      "id": 4176,
+      "name": "Rick and Bubba",
+      "vote_count": 0,
+      "vote_average": 0,
+      "poster_path": null,
+      "first_air_date": "",
+      "popularity": 0.6,
+      "genre_ids": [],
+      "original_language": "en",
+      "backdrop_path": null,
+      "overview": "Rick Burgess and Bill \"Bubba\" Bussey are cohosts of The Rick and Bubba Show—a syndicated comedic radio program based in Birmingham, Alabama. and authors of several books.",
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "original_name": "Rick Stein's Spain",
+      "id": 90074,
+      "name": "Rick Stein's Spain",
+      "vote_count": 0,
+      "vote_average": 0,
+      "poster_path": null,
+      "first_air_date": "2011-07-14",
+      "popularity": 0.6,
+      "genre_ids": [],
+      "original_language": "zh",
+      "backdrop_path": null,
+      "overview": "",
+      "origin_country": []
+    },
+    {
+      "original_name": "Rick & Steve: The Happiest Gay Couple in All the World",
+      "id": 4179,
+      "name": "Rick & Steve: The Happiest Gay Couple in All the World",
+      "vote_count": 0,
+      "vote_average": 0,
+      "poster_path": "/5cKa6aYGpYXUNNqHaLaPLRW8KOI.jpg",
+      "first_air_date": "2007-07-10",
+      "popularity": 1.768,
+      "genre_ids": [
+        16,
+        35
+      ],
+      "original_language": "en",
+      "backdrop_path": "/ez2yaK1vLGZS5HYF4d90S71cBPF.jpg",
+      "overview": "Rick & Steve: The Happiest Gay Couple in All the World is an American-Canadian stop motion animated sitcom created by Q. Allan Brocka, who also acts as director. It is a spin off from Brocka's 1999 short film of the same name, and debuted on the LGBT focused Logo network in July 2007 and on the Canadian Teletoon's late-night programming block \"The Detour\" that October. The show premiered in the UK on E4 on 17 September 2008 and in January 2010 on Virgin 17 in France.\n\nAfter the first season aired, Logo renewed the program for a second season, which debuted on November 11, 2008.\n\nThe animation of the original Rick & Steve shorts were done using Lego blocks and figures, prompting a lawsuit from the company. Though the series no longer uses Lego blocks, it still draws comparison to both them and those by Playmobil.\n\nIt is produced by Toronto-based production studio, Cuppa Coffee Studio. Currently, there are no further plans for a third season of Rick & Steve.",
+      "origin_country": [
+        "US",
+        "CA"
+      ]
+    },
+    {
+      "original_name": "Homecoming with Rick Reilly",
+      "id": 18529,
+      "name": "Homecoming with Rick Reilly",
+      "vote_count": 0,
+      "vote_average": 0,
+      "poster_path": null,
+      "first_air_date": "",
+      "popularity": 0.6,
+      "genre_ids": [],
+      "original_language": "en",
+      "backdrop_path": null,
+      "overview": "Homecoming with Rick Reilly is an American television show on the sports network ESPN. The show is hosted by ESPN personality Rick Reilly, and features interviews with popular American sports figures.",
+      "origin_country": []
+    },
+    {
+      "original_name": "Rick Stein's Long Weekends",
+      "id": 75059,
+      "name": "Rick Stein's Long Weekends",
+      "vote_count": 0,
+      "vote_average": 0,
+      "poster_path": "/1ViRGquvoVd2gPuFZuuaFxEbG9M.jpg",
+      "first_air_date": "2016-04-22",
+      "popularity": 0.642,
+      "genre_ids": [],
+      "original_language": "en",
+      "backdrop_path": "/2swrpvVZ2Wnam55JEkpXCrPYTJv.jpg",
+      "overview": "Rick Stein embarks on a series of culinary long weekends in search of food excellence and brilliant recipes, heading to markets, restaurants, wineries, cafes and bars.",
+      "origin_country": []
+    },
+    {
+      "original_name": "Rick Stein's Mediterranean Escapes",
+      "id": 24545,
+      "name": "Rick Stein's Mediterranean Escapes",
+      "vote_count": 0,
+      "vote_average": 0,
+      "poster_path": "/qJ6xvvMdUV8HSi6sIcRc2sBO4oJ.jpg",
+      "first_air_date": "2007-08-08",
+      "popularity": 0.631,
+      "genre_ids": [],
+      "original_language": "en",
+      "backdrop_path": "/jWKAwGUX9eth8VOmLRA8Rc1sHeF.jpg",
+      "overview": "",
+      "origin_country": [
+        "GB"
+      ]
+    },
+    {
+      "original_name": "Rick Stein Tastes the Blues",
+      "id": 75835,
+      "name": "Rick Stein Tastes the Blues",
+      "vote_count": 1,
+      "vote_average": 8,
+      "poster_path": null,
+      "first_air_date": "2011-11-15",
+      "popularity": 0.6,
+      "genre_ids": [],
+      "original_language": "en",
+      "backdrop_path": null,
+      "overview": "Ever since the early 1960s, Rick Stein has been in love with the blues and years later he is fascinated by the dishes ingrained in its lyrics - fried chicken and turnip greens, catfish and black-eyed peas, and the rest. In this film, Rick pays homage to the musicians who created this music and to the great dishes of the Mississippi Delta that go hand in hand with the blues.",
+      "origin_country": []
+    },
+    {
+      "original_name": "Rick Stein's Cornish Christmas",
+      "id": 38546,
+      "name": "Rick Stein's Cornish Christmas",
+      "vote_count": 0,
+      "vote_average": 0,
+      "poster_path": "/saUkJy68o9lTsihZqcXzRi4lgeo.jpg",
+      "first_air_date": "2010-12-02",
+      "popularity": 0.6,
+      "genre_ids": [],
+      "original_language": "en",
+      "backdrop_path": "/ayjtnnLFHO4CF0jilxarXosBB3v.jpg",
+      "overview": "The people of Cornwall are proud of the fact that they do things differently, and the Christmas celebrations in this beautiful part of England have their own unique flavours and sounds. Home for a while from his world-wide travel adventures, Rick Stein has a chance to enjoy Christmas in his beloved adopted county.",
+      "origin_country": [
+        "GB"
+      ]
+    },
+    {
+      "original_name": "Rick Stein's Far Eastern Odyssey",
+      "id": 27613,
+      "name": "Rick Stein's Far Eastern Odyssey",
+      "vote_count": 0,
+      "vote_average": 0,
+      "poster_path": "/aMz91jPzVHSZQflicOjfLiwfNbr.jpg",
+      "first_air_date": "2009-07-16",
+      "popularity": 0.6,
+      "genre_ids": [
+        99
+      ],
+      "original_language": "en",
+      "backdrop_path": "/2BkugY35Ykg3KoATGH9iRPUEDbN.jpg",
+      "overview": "Rick Stein takes an epic culinary journey by sea, down rivers and overland to explore the Far East's diverse food cultures.",
+      "origin_country": [
+        "GB"
+      ]
+    },
+    {
+      "original_name": "Rick Stein's Road to Mexico",
+      "id": 74876,
+      "name": "Rick Stein's Road to Mexico",
+      "vote_count": 0,
+      "vote_average": 0,
+      "poster_path": null,
+      "first_air_date": "2017-11-07",
+      "popularity": 0.6,
+      "genre_ids": [
+        99
+      ],
+      "original_language": "en",
+      "backdrop_path": "/rqx2be1wQUy41vwWTW7h2Dd0aM2.jpg",
+      "overview": "Inspired by a road trip that he made in the 1970's, the UK chef documents the food and culture from San Francisco in California down to Oaxaca in Mexico.",
+      "origin_country": [
+        "GB"
+      ]
+    },
+    {
+      "original_name": "Rick Stein's German Bite",
+      "id": 57024,
+      "name": "Rick Stein's German Bite",
+      "vote_count": 0,
+      "vote_average": 0,
+      "poster_path": null,
+      "first_air_date": "2013-08-05",
+      "popularity": 0.6,
+      "genre_ids": [
+        99
+      ],
+      "original_language": "en",
+      "backdrop_path": null,
+      "overview": "",
+      "origin_country": []
+    },
+    {
+      "original_name": "Rick's List",
+      "id": 31879,
+      "name": "Rick's List",
+      "vote_count": 0,
+      "vote_average": 0,
+      "poster_path": null,
+      "first_air_date": "2010-01-18",
+      "popularity": 0.6,
+      "genre_ids": [],
+      "original_language": "en",
+      "backdrop_path": null,
+      "overview": "Rick's List was a news and commentary program on CNN hosted by Rick Sanchez. The show aired weekdays from 3 to 5 PM EST. It first aired on Monday, January 18, 2010, when Sanchez's one-hour segment of CNN Newsroom was lengthened to two hours and given its own title, and The Situation Room with Wolf Blitzer was moved one hour later. Its last broadcast was on Friday, October 1, 2010 when CNN fired Sanchez over controversial comments made on a radio show.\n\nAs with Sanchez's previous broadcast, Rick's List focuses on using social networking including Twitter to create a \"national conversation\" about the news. One continuing segment was called \"The List U Don't Want 2 Be On,\" in which he criticizes others' actions and comments.",
+      "origin_country": [
+        "US"
+      ]
+    }
+  ]
+}
