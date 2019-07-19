@@ -4,7 +4,6 @@ import SearchPage from './SearchPage';
 
 const SearchPageContainer = () => {
   const [searchTerm, setSearchTerm] = useState('Rick');
-
   const movieDbResults = useFetchSearch(searchTerm);
 
   return (
@@ -14,7 +13,7 @@ const SearchPageContainer = () => {
         searchTerm={searchTerm}
         setSearchTerm={setSearchTerm}
       />
-      : <div>loading</div>
+      : <>loading</>
   );
 };
 

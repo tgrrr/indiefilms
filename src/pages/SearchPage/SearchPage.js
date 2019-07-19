@@ -1,13 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import SearchResults from '../../components/Search/SearchResults/SearchResults';
+import SearchResultsContainer
+  from '../../components/Search/SearchResults/SearchResultsContainer';
 
-const SearchPage = ({movieDbResults}) => (
-  <div 
-    className='SearchPage' 
+const SearchPage = ({ movieDbResults }) => (
+  <div
+    className='SearchPage'
     data-testid='SearchPage'
   >
-    <SearchResults movieDbResults={movieDbResults} />
+    <SearchResultsContainer movieDbResults={movieDbResults} />
   </div>
 );
 
