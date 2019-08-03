@@ -1,17 +1,22 @@
 import React from 'react';
 import { Col, Row } from '../../../common/styles';
+import SearchResultsHeaderStyled from './_SearchResultsHeaderStyled';
+
+const headerTitles = [
+  'Image',
+  'Title',
+  'Year',
+  'Rating',
+  'Language',
+  'Add to Watchlist',
+];
 
 const SearchResultsHeader = () => (
-  <strong>
+  <SearchResultsHeaderStyled>
     <Row p={3}>
-      <Col>Image</Col>
-      <Col>Title</Col>
-      <Col>Year</Col>
-      <Col>Rating</Col>
-      <Col>Language</Col>
-      {/* <Col>Watchlist</Col> */}
+      {headerTitles.map(title => <Col key={title}>{title}</Col>)}
     </Row>
-  </strong>
+  </SearchResultsHeaderStyled>
 );
 
 export default SearchResultsHeader;

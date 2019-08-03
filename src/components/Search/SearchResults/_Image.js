@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 // LATER: adjust size for media queries
 /* eslint-disable camelcase */
 // docs: https://developers.themoviedb.org/3/configuration/get-api-configuration
-const Image = ({ background_path, original_name, poster_path }) => {
+const Image = ({ background_path, name, poster_path }) => {
   const IMAGE_PATH = 'https://image.tmdb.org/t/p/';
   const IMAGE_SIZE = 'w185';
 
@@ -14,18 +14,18 @@ const Image = ({ background_path, original_name, poster_path }) => {
     imageVersions
       ? (
         <img
-          alt={original_name}
+          alt={name}
           className='SearchResults__item--image'
           data-testid='SearchResults__item--image'
           src={`${IMAGE_PATH}${IMAGE_SIZE}${imageVersions}`}
         />
-      ) : <>{original_name}</>
+      ) : <>{name}</>
   );
 };
 
 Image.propTypes = {
   background_path: PropTypes.string,
-  original_name: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
   poster_path: PropTypes.string,
 };
 

@@ -9,7 +9,7 @@ When(/^I search for a TV show$/, () =>
   cy.get('[data-testid=SearchPage]').should('have.class', 'SearchPage')
 );
 
-// TODO: add titles
+// LATER: add titles
 Then(/^I get the results for that TV show {string}$/, () => (
   cy.get('[data-testid=SearchResults__items]')
     .should('have.class', 'SearchResults__items')

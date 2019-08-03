@@ -8,9 +8,7 @@ const SearchResultsContainer = () => {
   const movieDbResults = useFetchSearch(searchTerm);
 
   return movieDbResults
-    && <SearchResults
-      movieDbResults={movieDbResults}
-    />;
+    && <SearchResults movieDbResults={movieDbResults} />;
 };
 
 export default SearchResultsContainer;

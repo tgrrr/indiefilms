@@ -53,7 +53,7 @@ Then(/^I get a Language$/, () =>
   cy.get('[data-testid=SearchResults__item--language]')
     // expect 20 results
     .should('have.length', 20) 
-    // TODO: Update to less specific test:
+    // LATER: Update to less specific test:
     .and($el => expect($el.text()).to.include('English'))
     // Check for 'English', not 'en'
     .and($el => isTitleCase($el.text()))
