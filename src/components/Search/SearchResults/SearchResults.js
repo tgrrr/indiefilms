@@ -4,38 +4,40 @@ import { Grid } from '../../../common/styles';
 import Image from './_Image';
 import SearchResult from './_SearchResult';
 import SearchResultsHeader from './_SearchResultsHeader';
+import WatchlistButtonContainer from
+  '../../WatchlistButton/WatchlistButtonContainer';
 
 /* eslint-disable camelcase */
-const SearchResults = ({ movieDbResults }) => (
+const SearchResults = ({
+  movieDbResults,
+}) => (
   <Grid>
     <SearchResultsHeader />
     <div
       className='SearchResults__items'
       data-testid='SearchResults__items'
     >
-      {movieDbResults.map((tvshow) => {
-        const {
-          background_path,
-          id,
-          original_name,
-          poster_path,
-          ...rest
-        } = tvshow;
-
-        return (
-          <SearchResult
-            key={id}
-            original_name={original_name}
-            {...rest}
-          >
+      {movieDbResults.map(({
+        background_path,
+        id,
+        name,
+        poster_path,
+        ...rest
+      }) => (
+        <SearchResult
+          image={
             <Image
               background_path={background_path}
-              original_name={original_name}
+              name={name}
               poster_path={poster_path}
             />
-          </SearchResult>
-        );
-      })}
+          }
+          key={id}
+          name={name}
+          watchListButton={<WatchlistButtonContainer id={id} />}
+          {...rest}
+        />
+      ))}
     </div>
   </Grid>
 );
