@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Button } from '../../common/ui/ui';
 
 const WatchlistButton = ({
   addWatchlist,
@@ -8,8 +9,8 @@ const WatchlistButton = ({
   watchlist,
 }) => (
   !watchlist.includes(id)
-    ? <button onClick={() => addWatchlist(id)}>+ add</button>
-    : <button onClick={() => removeWatchlist(id)}>- remove</button>
+    ? <Button onClick={() => addWatchlist(id)}>+ add</Button>
+    : <Button onClick={() => removeWatchlist(id)}>- remove</Button>
 );
 
 WatchlistButton.propTypes = {
