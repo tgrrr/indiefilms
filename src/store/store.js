@@ -7,10 +7,18 @@ import { applyMiddleware, combineReducers, compose } from 'redux';
 
 const initialState = {
   watchlist: [4571], // Hunter's id is on initial watchlist
-  // data: [],
-  // loading: true,
+  // TODO: data: [],
+  // TODO: loading: true,
 };
 
+const LOCAL_STORAGE_KEY = 'indiefilm_local_storage_key';
+const saveStateToStorage = ({ getState }) => next => (action) => {
+  const returnValue = next(action);
+  localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(getState()));
+  return returnValue;
+};
+
+const middlewareArray = [reduxThunk, reduxLogger, saveStateToStorage];
 
 const watchlistReducer = (state = initialState.watchlist, action) => {
   switch (action.type) {
@@ -35,7 +43,7 @@ export const {
   reducer,
   initialState,
   compose(
-    applyMiddleware(reduxThunk, reduxLogger),
+    applyMiddleware(...middlewareArray),
     reduxDevToolsExt(),
   ),
 );
