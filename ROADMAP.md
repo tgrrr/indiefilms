@@ -3,8 +3,8 @@
 ### Currently doing
 
 - [x] redux
-  - [ ] create actions/reducer files
-  - [ ] useReducer/useEffect file
+  - [x] create actions/reducer files
+  - [x] useReducer/useEffect file
   - [ ] thunks
     - [ ] Call api with thunks
     - cancel async requests
@@ -19,12 +19,9 @@
 
 - [ ] Search Box
 
-- [-] Add to watchList from SearchResults Page
-  - [x] Add/remove UI buttons
-  - [ ] Save to local storage
-  - [ ] Waiting: Sync to API - Waiting on user authentication/login
+### Waiting
 
-
+- [ ] Sync to API (Waiting on user authentication/login)
 
 ### Epics:
 
@@ -34,7 +31,6 @@
 
 ### Testing
 
-
 - Unit tests
 - Eslint
 - CSS tests
@@ -42,20 +38,26 @@
 - Move test search term into constants/examples
 
 ### Design
+
 - Responsive images
 - Cards for results
 - Hide searchResults header for mobile view
 
 ---
 
-### Done 
+### Done
+
 - [x] Global state
 - [x] Sticky searchResults header
+- [x] Add to watchList from SearchResults Page
+  - [x] Add/remove UI buttons
+  - [x] Save to local storage
 
 ---
 
 ## Later
 
+- set ax       j ios cancel token
 - Loading placeholder
   - with react-loading-skeleton, react-loading or alternative
 
