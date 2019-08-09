@@ -1,14 +1,13 @@
 import initialState from '../initialState';
 
 const watchlistReducer = (state = initialState.watchlist, action) => {
-  switch (action.type) {
-  case 'addWatchlist':
-    return [...state, action.id];
-  case 'removeWatchlist':
-    return state.filter(tvshow => tvshow !== action.id);
-  default:
-    return state;
-  }
+  const { id, type } = action;
+  const actionTypes = {
+    addWatchlist: () => [...state, id],
+    removeWatchlist: () => state.filter(tvshow => tvshow !== id),
+    default: () => state,
+  };
+  return (actionTypes[type] || actionTypes.default)();
 };
 
 export default watchlistReducer;
