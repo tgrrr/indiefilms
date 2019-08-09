@@ -1,20 +1,13 @@
-import React, { useReducer } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import WatchlistButton from './WatchlistButton';
-import { useGlobalState } from '../../store/store';
+import { useGlobalState, dispatch } from '../../store/store';
 
 const WatchlistButtonContainer = ({ id }) => {
-  const [watchlist, setWatchlist] = useGlobalState('watchlist');
+  const [watchlist] = useGlobalState('watchlist');
 
-  const addWatchlist = id => setWatchlist(
-    prevWatchlist => [...prevWatchlist, id]
-  );
-
-  const removeWatchlist = id => (
-    setWatchlist(
-      prevWatchlist => prevWatchlist.filter(tvShow => tvShow !== id)
-    )
-  );
+  const addWatchlist = id => dispatch({ type: 'addWatchlist', id });
+  const removeWatchlist = id => dispatch({ type: 'removeWatchlist', id });
 
   return (
     <WatchlistButton

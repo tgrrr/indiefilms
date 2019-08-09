@@ -1,20 +1,44 @@
 import React from 'react';
 import propTypes from 'prop-types';
-import { createGlobalState } from 'react-hooks-global-state';
-
-const initialWatchlist = (window.localStorage.getItem('watchlist'));
+import reduxLogger from 'redux-logger';
+import { createStore } from 'react-hooks-global-state';
+import { reduxDevToolsExt } from 'react-hooks-global-state/src/devtools';
+import { applyMiddleware, combineReducers, compose } from 'redux';
 
 const initialState = {
-  watchlist: initialWatchlist || [4571], // Hunter's id is on initial watchlist
-  data: [],
-  loading: true,
+  watchlist: [4571], // Hunter's id is on initial watchlist
+  // data: [],
+  // loading: true,
 };
+
+
+const watchlistReducer = (state = initialState.watchlist, action) => {
+  switch (action.type) {
+  case 'addWatchlist':
+    return [...state, action.id];
+  case 'removeWatchlist':
+    return state.filter(tvshow => tvshow !== action.id);
+  default:
+    return state;
+  }
+};
+
+const reducer = combineReducers({
+  watchlist: watchlistReducer,
+});
 
 export const {
   GlobalStateProvider,
-  setGlobalState,
+  dispatch,
   useGlobalState,
-} = createGlobalState(initialState);
+} = createStore(
+  reducer,
+  initialState,
+  compose(
+    applyMiddleware(reduxThunk, reduxLogger),
+    reduxDevToolsExt(),
+  ),
+);
 
 const Provider = ({ children }) => (
   <GlobalStateProvider>
@@ -27,8 +51,3 @@ Provider.propTypes = {
 };
 
 export default Provider;
-
-export const _setWatchlist = (s) => {
-  window.localStorage.setItem('watchlist', s);
-  setGlobalState('watchlist', s);
-};

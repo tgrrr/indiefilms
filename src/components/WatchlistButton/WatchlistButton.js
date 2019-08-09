@@ -24,5 +24,4 @@ WatchlistButton.defaultProps = {
   watchlist: [],
 };
 
-
 export default WatchlistButton;

@@ -1,26 +1,40 @@
 # Roadmap
 
-# Next Up
+### Currently doing
 
-- Global state
-- Loading placeholder
-  - react-loading-skeleton, react-loading or alternative
+- [x] redux
+  - [ ] create actions/reducer files
+  - [ ] useReducer/useEffect file
+  - [ ] thunks
+    - [ ] Call api with thunks
+    - cancel async requests
+  - set request loading state
+    - check: https://www.npmjs.com/package/use-async-effect
 
-- Deploy
-- Watchlist page
-  - The title
-  - The year that the show first aired
-  - The show’s description
-- Add to watchList from SearchResults
+- [ ] Tests add/remove Watchlist buttons on SearchResults Page
+  - BDD tests
+  - Unit tests for add/remove Watchlist buttons
+
+### Next Up
+
+- [ ] Search Box
+
+- [-] Add to watchList from SearchResults Page
+  - [x] Add/remove UI buttons
+  - [ ] Save to local storage
+  - [ ] Waiting: Sync to API - Waiting on user authentication/login
+
+
+
+### Epics:
+
+- Watchlist page with title, year, description
 - Authentication / login page
-- Side-effects
-  - API edge cases
-  - API request failures
-- Homepage
-- Convert into Chrome plugin
-- Continous Integration
+- Deploy
 
 ### Testing
+
+
 - Unit tests
 - Eslint
 - CSS tests
@@ -31,8 +45,27 @@
 - Responsive images
 - Cards for results
 - Hide searchResults header for mobile view
-- Sticky searchResults header
+
+---
+
+### Done 
+- [x] Global state
+- [x] Sticky searchResults header
+
+---
 
 ## Later
 
+- Loading placeholder
+  - with react-loading-skeleton, react-loading or alternative
+
+- Side-effects
+  - API edge cases
+  - API request failures
+  - API request codes
+
+- Error notifications
+- Continous Integration
+- Convert into Chrome plugin
+- Homepage
 - Show api with [Swagger UI](https://www.npmjs.com/package/swagger-ui-react)
