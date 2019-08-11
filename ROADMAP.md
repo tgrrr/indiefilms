@@ -2,15 +2,6 @@
 
 ### Currently doing
 
-- [x] redux
-  - [x] create actions/reducer files
-  - [x] useReducer/useEffect file
-  - [ ] thunks
-    - [ ] Call api with thunks
-    - cancel async requests
-  - set request loading state
-    - check: https://www.npmjs.com/package/use-async-effect
-
 - [ ] Tests add/remove Watchlist buttons on SearchResults Page
   - BDD tests
   - Unit tests for add/remove Watchlist buttons
@@ -52,12 +43,17 @@
 - [x] Add to watchList from SearchResults Page
   - [x] Add/remove UI buttons
   - [x] Save to local storage
+- [x] redux
+  - [x] create actions/reducer files
+  - [x] useReducer/useEffect file
+  - [x] cancel async requests
+    - [x] set axios cancel token
 
 ---
 
 ## Later
 
-- set ax       j ios cancel token
+- thunks - Call api with thunks
 - Loading placeholder
   - with react-loading-skeleton, react-loading or alternative
 
@@ -65,6 +61,10 @@
   - API edge cases
   - API request failures
   - API request codes
+  - set request loading state
+    - check: https://www.npmjs.com/package/use-async-effect
+    - check: https://www.npmjs.com/package/@use-hooks/axios
+    - check:     "@cypress/webpack-preprocessor": "^4.1.0",
 
 - Error notifications
 - Continous Integration

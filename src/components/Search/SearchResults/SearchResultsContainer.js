@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import useFetchSearch from '../../../services/api/useFetchSearch';
+import useFetchSearch from '../../../common/hooks/useFetchSearch';
 import SearchResults from './SearchResults';
 
 const SearchResultsContainer = () => {

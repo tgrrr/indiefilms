@@ -14,6 +14,11 @@ const saveStateToStorage = ({ getState }) => next => (action) => {
   return returnValue;
 };
 
+const initialStringFromStorage = localStorage.getItem(LOCAL_STORAGE_KEY);
+const _initialState = initialStringFromStorage === null
+  ? initialState
+  : JSON.parse(initialStringFromStorage);
+
 const middlewareArray = [reduxLogger, saveStateToStorage];
 
 export const {
@@ -22,7 +27,7 @@ export const {
   useGlobalState,
 } = createStore(
   rootReducers,
-  initialState,
+  _initialState,
   compose(
     applyMiddleware(...middlewareArray),
     reduxDevToolsExt(),

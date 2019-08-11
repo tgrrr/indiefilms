@@ -1,6 +1,8 @@
 import initialState from '../initialState';
 
-const watchlistReducer = (state = initialState.watchlist, action) => {
+const { watchlist } = initialState;
+
+const watchlistReducer = (state = watchlist, action) => {
   const { id, type } = action;
   const actionTypes = {
     addWatchlist: () => [...state, id],
