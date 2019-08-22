@@ -8,26 +8,29 @@ const Button = ({
   children,
   className,
   color,
+  dataTestId,
   disabled,
   icon,
   name,
   onClick,
   type,
 }) => (
-  <MaterialButton
-    className={className}
-    color={color}
-    disabled={disabled}
-    name={name}
-    onClick={onClick}
-    type={type}
-    variant="contained"
-  >
+  <div data-testid={dataTestId}>
+    <MaterialButton
+      className={className}
+      color={color}
+      disabled={disabled}
+      name={name}
+      onClick={onClick}
+      type={type}
+      variant="contained"
+    >
       <>
         {icon && icon}
         {children}
       </>
-  </MaterialButton>
+    </MaterialButton>
+  </div>
 );
 
 Button.propTypes = {

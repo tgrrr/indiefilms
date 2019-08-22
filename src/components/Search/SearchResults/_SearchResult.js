@@ -23,7 +23,12 @@ const SearchResult = ({
     p={3}
   >
     <Col>
-      {image}
+      <span
+        className='SearchResult__item--image'
+        data-testid='SearchResult__item--image'
+      >
+        {image}
+      </span>
     </Col>
     <Col>
       <span
@@ -70,12 +75,16 @@ const SearchResult = ({
 /* eslint-enable camelcase */
 
 SearchResult.propTypes = {
-  first_air_date: PropTypes.string.isRequired,
+  first_air_date: PropTypes.string,
   image: PropTypes.object.isRequired,
   original_language: PropTypes.string.isRequired,
   original_name: PropTypes.string.isRequired,
   vote_average: PropTypes.number.isRequired,
   watchListButton: PropTypes.object.isRequired,
+};
+
+SearchResult.defaultProps = {
+  first_air_date: null,
 };
 
 export default SearchResult;

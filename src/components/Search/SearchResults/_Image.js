@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
 
 // LATER: adjust size for media queries
 /* eslint-disable camelcase */
@@ -11,17 +12,25 @@ const Image = ({ background_path, name, poster_path }) => {
   const imageVersions = background_path || poster_path;
 
   return (
-    imageVersions
-      ? (
-        <img
-          alt={name}
-          className='SearchResults__item--image'
-          data-testid='SearchResults__item--image'
-          src={`${IMAGE_PATH}${IMAGE_SIZE}${imageVersions}`}
-        />
-      ) : <>{name}</>
+    <SearchResultImageWrapper>
+      {imageVersions
+        ? (
+          <img
+            alt={name}
+            className='SearchResult__item--image'
+            data-testid='SearchResult__item--image'
+            src={`${IMAGE_PATH}${IMAGE_SIZE}${imageVersions}`}
+          />
+        ) : <>{name}</>}
+    </SearchResultImageWrapper>
   );
 };
+
+const SearchResultImageWrapper = styled.div`
+  width: 200px;
+  padding: 0 10px 0 0 ;
+`;
+
 
 Image.propTypes = {
   background_path: PropTypes.string,
